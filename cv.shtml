@@ -13,13 +13,13 @@
         <link href="css/menu.css" rel="stylesheet" type="text/css">
         <link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
     </head>
-    <body> 
+    <body>
         <!--#include virtual="header.html" -->
         <!--#include virtual="menu.html" -->
         <div id="content">
             <h1>Ingénieur (micro)-électronicien</h1>
             <div class="update">
-                Mise à jour : 16 Novembre 2013 -- 09H56
+                Mise à jour : 16 décembre 2014 -- 09H59
             </div>
             <h2>Présentation</h2>
             <ul class="rightBox" style="list-style:None;">
@@ -30,19 +30,49 @@
             </ul>
             <ul>
                 <li>Olivier LEMAIRE</li>
-                <li>44000 Nantes</li>
+                <li>75001 PARIS</li>
                 <li>Tel: 06 78 86 91 17</li>
                 <li><span class="mail"><a class="mail"
                         href="mailto:contact@olivier-lemaire.eu">contact@olivier-lemaire.eu</a></span></li>
-            </ul>
+            </ul> 
             <h2 id="experience">Expériences</h2>
             <h3>Expériences significatives</h3>
             <div class="experience">
+                <div class="line">
+                    <div class="leftCol">
+                        09/2014 -- en cours 
+                    </div>
+                    <div class="rightCol">
+                        <a href="http://www.lal.in2p3.fr/?lang=fr">Laboratoire de
+                            l'accélérateur Linéaire</a>, <a
+                            href="http://www.openstreetmap.org/#map=18/48.69906/2.17038">Orsay
+                            (91)</a> 
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="leftCol">
+                        Poste 
+                    </div>
+                    <div class="rightCol">
+                        Ingénieur de recherche (IR2) au sein du <span
+                            class="popup">SERDI <span>Service d'Électronique</span></span>
+                    </div>
+                </div>
+                <div class="line">
+                    <div class="leftCol">
+                        Mission principale
+                    </div>
+                    <div class="rightCol">
+                        Conception électronique et micro-électronique
+                    </div> 
+                </div>
+            </div>
+            <div class="experience">
                 <div class="line"> 
                     <div class="leftCol"> 
-                        2010 -- en cours 
+                        2010 -- 2014 
                     </div>
-                    <div class="rightCol"> SUBATECH, Nantes, Durée : 44 mois (renouvelé en janvier 2013) </div>
+                    <div class="rightCol"> SUBATECH, Nantes, Durée : 44 mois </div>
                 </div>
                 <div class="line">
                     <div class="leftCol">
@@ -57,7 +87,7 @@
                 </div>
                 <div class="line">
                     <div class="leftCol">
-                        Mission Principale 
+                        Mission principale 
                     </div>
                     <div class="rightCol"> Conception de l’électronique <em>front-end</em> pour la chambre à projection
                         temporelle (TPC) de la caméra Compton au xénon liquide <span class="popup">XEMIS<span>Xenon
@@ -297,8 +327,17 @@
                 </div>
                 <div class="rightCol">
                     <ul class="list">
-                        <li>Cadence Virtuso, Kicad, CADSOFT Eagle, formation
+                        <li>Cadence Virtuoso, Kicad, CADSOFT Eagle, formation
                         suivie pour Cadence PCB, ngspice</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="line">
+                <div class="leftCol">
+                    OS
+                </div>
+                <div class="rightCol">
+                    <ul class="list">
                         <li>Linux</li>
                     </ul>
                 </div>
@@ -312,9 +351,9 @@
                 <div class="rightCol">
                     <ul class="list">
                         <li>C/C++, Qt4, python, PyQt4</li>
+                        <li>VHDL et VHDL-AMS</li> 
+                        <li>C-embarqué</li>
                         <li>Bash</li>
-                        <li>Débutant en VHDL</li> 
-                        <li>VHDL-AMS et C-embarqué</li>
                         <li>LATEX</li>
                         <li>Notions de HTML et CSS</li>
                     </ul>
