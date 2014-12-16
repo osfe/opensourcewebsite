@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Lignes de commandes Linux">
+        <meta name="keywords" content="linux, command, bash">
+        <title>Lignes de commande</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link href="css/osws.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link href="css/code_bash.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--#include virtual="header.html" -->
+        <!--#include virtual="menu.html" -->
+        <div id="content">
+            <h1>Script en bash</h1>
+            <div class="update">
+                Mise à jour : 17 Novembre 2013
+            </div>
+            <h2 id=spaces>Enlever les espaces des noms de fichiers</h2>	
+
+            <p>Le but de mini-script est d'enlever des noms de fichiers et de
+            dossiers les espaces indésirables. Il peut être téléchargé<a
+                href="scripts/rmspaces"> ici</a>.</p>
+
+            <p><b>ATTENTION</b>: ce script renomme <em>tous</em> les fichiers dans
+            tous les dossiers contenu dans celui où il est lancé.</p>
+
+            <h3>Le script</h3>
+            <!--#include virtual="code_bash_rmspaces.html" -->
+
+            <h3>Explications au sujet de ce script</h3>
+            <ul> 
+                <li><span class="listemph">Ligne 5</span> le script
+                cherche les dossiers (-type d) dont le nom contient une
+                espace, puis les passe (|, pipe) à la commande
+                <em>rename</em> qui se charge alors de les remplacer par des
+                <em>underscores</em> ('s/ /_/g').</li>
+                <li><span class="listemph">Ligne 10</span> cette fois le script cherche les fichiers
+                (-type f) dont le nom contient une espace et les passe à la
+                commande rename</li>
+            </ul> 
+            <h2 id=lcase>Renommer tous les fichiers en minuscule</h2>
+            <p>Ce script cherche tous les fichiers dans le dossier courant et
+            les renomme en minuscule.</p>
+            <h3>Le script</h3>
+            <!--#include virtual="code_bash_renamelowercase.html" -->
+        </div>
+        <ul id="pageMenu">
+            <li><a href="#spaces">Enlever les espaces</a></li>
+            <li><a href="#lcase">Renommer minuscules</a></li>
+            <li>Menu #3</li>
+            <li>Menu #4</li>
+        </ul>	
+    </body>
+</html>

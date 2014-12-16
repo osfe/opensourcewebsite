@@ -1,0 +1,41 @@
+#content pre { 
+    white-space: pre-wrap;
+    font-family: monospace;
+    color: #d0d0d0;
+}
+
+.Number {
+    color: #af5fff;
+}
+.Delimiter {
+    color: #626262;
+}
+.Conditional {
+    color: #d7005f;
+    font-weight: bold;
+}
+.PreProc {
+    color: #5fd7ff;
+}
+.Identifier {
+    color: #00ffff;
+    font-weight: bold;
+}
+.Special {
+    color: #ffd7d7;
+}
+.Function {
+    color: #87ff00;
+}
+.Operator {
+    color: #d7005f;
+}
+.String {
+    color: #afaf87;
+}
+.Statement {
+    color: #ffff00;
+}
+.Comment {
+    color: darkgray;
+}

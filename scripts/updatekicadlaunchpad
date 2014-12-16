@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+# Check if the script is being run as root exit if it is not.
+if [ "$UID" -ne "0" ]
+then
+  echo "[ERROR] This script must be run as root"
+  exit 1
+fi
+cd /opt/kicad
+echo '/*** kicad update ***/'
+bzr update
+
+echo /*** uninstall previous version ***/
+cd build
+make uninstall
+
+echo "/*** delete previous build ***/"
+cd /opt/kicad
+rm -fR build/*
+cd build
+
+echo "/*** cmake kicad ***/"
+cmake -DCMAKE_BUILD_TYPE=Release -DKICAD_TESTING_VERSION=ON -DKICAD_SCRIPTING=ON -DKICAD_SCRIPTING_MODULES=ON ../
+
+echo "/*** build kicad with log in build.log ***/"
+make -j2 2>&1 | tee build.log
+
+echo "/*** install kicad ***/"
+make install
+cd ..
+echo "/*** kicad up to date ***/"

@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>CV ingénieur électronique analogique numérique</title>
+		<meta name="keywords" content="cv, ingénieur, électronique,micro,
+		analogique,numérique,C,python, controlleur">
+		<meta name="google-site-verification" content="ghhkobElfy3_CRbJLIJlwILnL54b-JoxohZiLYL0ZsU">
+		<meta name="description" content="cv ingénieur électronique et
+		micro-électronique, analogique et numérique avec compétence en python et
+		en C">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link href="css/osws.css" rel="stylesheet" type="text/css">
+		<link href="css/menu.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			OpenSourceWebSite
+		</div>
+		<!--#include virtual="menu.html" -->
+		<div id="wrapper">
+			<div id="content">
+				<h1>Présentation</h1>
+				<h2>Projet</h2>
+				<h3> Projet avant départ</h3>
+				<p>Faire le tour de la pointe bretonne depuis <a
+					href="http://www.roscoff.fr">Roscoff</a> jusque
+				<a href="http://www.quimperle.com">Quimperlé</a>, le tout en
+				train et en bicyclette. Nous allons suivre le trajet décrit dans
+				<a
+					href="http://www.amazon.fr/Le-tour-Bretagne-v%C3%A9lo-Quimperl%C3%A9/dp/2841823997/ref=pd_bxgy_b_img_b">cet
+					ouvrage</a>, ce qui correspond en partie au GR34 à partir de
+				Roscoff. Ce sera notre premier long trajet en
+				vélo tous les deux.</p>
+				<h3>Réalisation</h3>
+				Finalement, nous sommes parti de Morlaix et nous sommes allés
+				jusque Camaret-sur-Mer pour un total d'environ 250km. C'est
+				beaucoup moi que ce qui était initialement prévu mais nous
+				n'aurions pas pu faire plus...
+				<h2>Le trajet réalisé</h2>
+				Le voyage s'est déroulé en trois étapes.
+				<h3>Morlaix -- Roscoff</h3>
+				<p>Une petite étape de 31km, pas très difficile mais avec quelques
+				montées intéressantes. En particulier, juste avant d'arriver à
+				Carantec, une petit côte au niveau du Manoir le Fransic permet
+				de se réveiller un peu les jambes.</p>
+				
+				La rade de Morlaix est vraiment magnifique et nous avons vu des
+				plages qui laissent rêveur tant qu'on ne s'y baigne pas... La
+				route sur cette partie n'était pas trop fréquentée et nous avons
+				pu admirer la rade sans passer notre temps à faire attention aux
+				voitures.
+				<div class="imgWrapper">
+					<a href="images/PNG/morlaix_roscoff_itineraire.png">
+						<img src="images/PNG/morlaix_roscoff_itineraire_lowRes.png"></img>
+					</a>
+					<p>Étape #1 : Morlaix -- Roscoff en passant par Carantec</p>
+				</div>
+					
+				<h2>Matériel</h2>
+				<!--#include virtual="materiel.html" -->
+			</div>
+			<ul id="pageMenu">
+				<li><a href="#top">Présentation</a></li>
+				<li><a href="#j1">Journée #1</a></li>
+			</ul>
+			<div class="stat">
+				<!--#include virtual="counter.html" -->
+			</div>
+		</div>
+	</body>
+</html>

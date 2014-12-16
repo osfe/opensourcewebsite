@@ -1,0 +1,354 @@
+	<body>
+		<div id="header">
+			OpenSourceWebSite
+		</div>
+		<!--#include virtual="menu.html" -->
+		<div id="main">
+			<div id="page_menu">
+				<ul>
+					<li><a href="#top">Présentation</a></li>
+					<li><a href="#experience">Expériences</a></li>
+					<li><a href="#formation">Formation</a></li>
+					<li><a href="#competence">Compétences</a></li>
+					<li><a href="#interet">Intérêts</a></li>
+				</ul>
+			</div>	
+			<div class="footer">
+				<ul class="">
+					<li><span class="mail"><a
+							href="mailto:m.olivier.lemaire@gmail.com?Subject=CV">contact</a></span></li>
+				</ul>
+			</div>
+			<div id="content">	
+				<h1>Ingénieur (micro)-électronicien</h1>
+				<div class="update">
+					Mise à jour : 25 Avril 2012 à 23h00
+				</div>
+				<h2>Présentation</h2>
+				<div class="rightBox">
+					<ul>
+						<li>34 ans</li>
+						<li>Permis B</li>
+						<li>Concubinage</li>
+						<li>Bilingue EN/FR</li>
+					</ul>
+				</div>
+				<ul class="list">
+					<li>Olivier LEMAIRE</li>
+					<li>44000 Nantes</li>
+					<li>Tel: 06 78 86 91 17</li>
+					<li><span class="mail"><a class="mail"
+							href="mailto:m.olivier.lemaire@gmail.com?Subject=from%20website%20cv">m.olivier.lemaire@gmail.com</a></span></li>
+				</ul>
+
+				<h2 id="experience">Expériences</h2>
+				<h3>Expériences significatives</h3>
+				<div class="experience">
+					<div class="line"> 
+						<div class="leftCol"> 
+							2010 -- en cours : 
+						</div>
+						<div class="rightCol"> 
+							Ingénieur de recherche, SUBATECH, Nantes, Durée : 24
+							mois (renouvelé en janvier 2012)
+						</div>
+					</div>
+					<div class="line">
+						<div class="leftCol">
+							Poste 
+						</div>
+						<div class="rightCol">
+							Ingénieur de recherche (IR) dans le groupe Xénon
+							spécialité micro-électronique, électronique  et
+							instrumentation
+						</div>
+					</div>
+					<div class="line">
+						<div class="leftCol">
+							Mission 
+						</div>
+						<div class="rightCol">
+							Mise en place au sein de l'expérience d'une
+							électronique nouvelle (ASIC) fonctionnant à température du
+							xénon liquide
+						</div>
+					</div>
+					<div class="line">
+						<div class="leftCol">
+							Détail 
+						</div>
+						<div class="rightCol">
+							<ul class="list"> <li>Modification de l'organisation
+								d'un ASIC pour permettre la parallélisation des
+								sorties
+								<ul class="sublist">	
+									<li>modification de la hiérarchie,</li>
+									<li>implantation d'un buffer de sortie,</li>
+									<li>export en GDSII et envoie en
+									fabrication,</li>
+									<li>schématique, simulation, layout, LVS,
+									DRC;</li>
+								</ul>
+								</li>
+								<li>Mise au point d'un banc de test de l'ASIC
+								<ul class="sublist">
+									<li>Conception, layout, envoie en
+									fabrication, commande composants et câblage de deux cartes de
+									test;</li>
+								</ul>
+								</li>
+
+								<li>écriture d'un logiciel de contrôle de
+								l'ASIC
+								<ul class="sublist">
+									<li>interface graphique pour le pilotage
+									"slow-control" de l'ASIC depuis un PC sous
+									Linux ou Windows,</li>
+									<li>écriture de bibliothèques et  de classes
+									en python;</li>
+								</ul>
+								</li>
+								<li>écriture du micro-logiciel d'un
+								micro contrôleur pour le pilotage "slow-control"
+								de  l'ASIC IDeFX
+								<ul class="sublist">
+									<li>développement d'un micro-logiciel en C
+									en utilisant l'avr-libc,</li>
+									<li>Implantation logicielle d'un buffer
+									circulaire,</li>
+									<li>utilisation de l'USART par interruption,</li>
+									<li>Utilisation des I/O en bit-banging;</li>
+								</ul>
+								</li>
+							</ul>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2009 -- 2010
+						</div>
+						<div class="rightCol">
+							Ingénieur micro électronicien, CEA de Saclay, Saclay
+							(IdF), Durée: 18 mois
+						</div>
+					</div>
+					<div class="line">
+						<div class="leftCol">
+							Poste
+						</div>
+						<div class="rightCol">
+							Poste Ingénieur chercheur sur le projet MACSI (IdefX-HD & Caliste) au sein de l'IRFU
+						</div>
+					</div>
+					<div class="line">
+						<div class="leftCol">
+							Mission
+						</div>
+						<div class="rightCol">
+							<ul class="list">
+								<li> Design d'un driver CMOS vers LVDS et d'un
+								étage différentiel de sortie </li>
+
+								<li>Participation à l'intégration d'une interface numérique de
+								contrôle multi-ASIC au sein du circuit
+								<ul class="sublist">
+									<li>simulation avec rétro-annotation,</li>
+									<li>placement routage automatique,</li>
+									<li>écriture de testbench verilog;</li>
+								</ul>
+								</li>
+								<li>Participation à l'intégration des ASIC s au sein du module CALISTE
+								<ul class="sublist">
+									<li>Rédaction du document technique de
+									support pour le montage de l'ASIC dans le
+									module</li>
+								</ul>
+								</li>
+								<li>Test préliminaire de l'ASIC IdefX-HD et rédaction de documents techniques</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<h3>Expériences Indicatives</h3>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2001 -- 2002
+						</div>
+						<div class="rightCol">
+							Vendeur, FNAC, Annecy (temps partiel)
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2000 -- 20001
+						</div>
+						<div class="rightCol">
+							Menuisier Ébéniste, Divers artisans, Annecy (temps
+							complet)
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							1999 -- 2000
+						</div>
+						<div class="rightCol">
+							Manager, McDonald's, Sevrier. Organisation du travail pour une
+							équipe de 5 à 15 personnes (temps complet)
+						</div>
+					</div>
+				</div>
+				<h2 id="formation">Formations</h2>
+				<h3>Formations Principales</h3>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2007 -- 2008
+						</div>
+						<div class="rightCol">
+							Échange universitaire (2 semestres) , University of Vermont , Burlington, Vermont, USA
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2005 -- 2008
+						</div>
+						<div class="rightCol">
+							Diplôme d'ingénieur , École Nationale Supérieure d'Ingénieurs de Caen (ENSICAEN ) , Caen
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2003 -- 2005
+						</div>
+						<div class="rightCol">
+							Élève en classe préparatoire, Lycée Gaspard Monge, Chambéry
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							2001 -- 2003
+						</div>
+						<div class="rightCol">
+							Baccalauréat technologique, Lycée Louis Lachenal, Annecy, mention Bien
+						</div>
+					</div>
+				</div>
+				<h3>Autre formation</h3> 
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							1997 -- 1999
+						</div>
+						<div class="rightCol">
+							CAP d'ébénisterie, Lycée Porte des Alpes, Rumilly (74)
+						</div>
+					</div>
+				</div>
+				<h2 id="competence">Compétences</h2>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							Électronique
+						</div>
+						<div class="rightCol">
+							<ul class="list">
+								<li>Design analogique et numérique MOS</li>
+								<li>Conception électronique analogique</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							Informatique
+						</div>
+						<div class="rightCol">
+							<ul class="list">
+								<li>Cadence Virtuso, CADSOFT Eagle, formation
+								prévue pour Cadence PCB</li>
+								<li>Linux</li>
+								<li>langage C, python, PyQt</li>
+								<li>notions de verilog et C-embarqué</li>
+								<li>LATEX</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							Linguistique
+						</div>
+						<div class="rightCol">
+							Bilingue Anglais/Français (Vécu 13 mois aux États
+							Unis)
+						</div>
+					</div>
+				</div>
+				<h2 id="interet">Intérêts</h2>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							Culture
+						</div>
+						<div class="rightCol">
+							Cinéma, musique, lecture, Théâtre							
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							Sport
+						</div>
+						<div class="rightCol">
+							Cyclisme
+						</div>
+					</div>
+				</div>
+				<div class="experience">
+					<div class="line">
+						<div class="leftCol">
+							Informatique
+						</div>
+						<div class="rightCol">
+							Langages de programmation. Logiciel libre
+						</div>
+					</div>
+				</div>	
+				<!-- phpmyvisites -->
+				<a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics" 
+					onclick="window.open(this.href);return(false);"><script type="text/javascript">
+						<!--
+						var a_vars = Array();
+						var pagename='';
+
+						var phpmyvisitesSite = 240204;
+						var phpmyvisitesURL = "http://st.free.fr/phpmyvisites.php";
+						//-->
+						</script>
+						<script language="javascript" src="http://st.free.fr/phpmyvisites.js" type="text/javascript"></script>
+						<object><noscript><p>phpMyVisites | Open source web analytics
+								<img src="http://st.free.fr/phpmyvisites.php" alt="Statistics" style="border:0" />
+								</p></noscript></object></a>
+								<!-- /phpmyvisites --> 
+							</div>
+						</div>
+					</body>
+				</html>

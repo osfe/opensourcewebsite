@@ -1,0 +1,12 @@
+\definecolor{dodgerblue}{RGB}{30 144 255}
+\definecolor{vimblue}{RGB}{0 28 39}
+\begin{tikzpicture}[color=dodgerblue, very thin]
+\node[draw, inner sep=0, minimum height=1mm, minimum width=2mm, rounded corners=0.05cm, rotate=45, anchor=west] (c1) at (0,0) {};
+\node[draw, inner sep=0, minimum height=1mm, minimum width=2mm, rounded corners=0.05cm, rotate=45, anchor=west] (c2) at (1.5mm,1.5mm) {};
+\draw[vimblue,very thick] (1mm,1mm) -- ++(45:1.4mm);
+\draw[cap=round] (1mm,1mm) -- ++(45:1.4mm);
+\begin{pgfonlayer}{background}
+\node[fit=(c1) (c2), inner sep=0.25mm,fill=vimblue] (bb) {};
+\end{pgfonlayer}
+% \node[draw=red, fill, line width=10mm, inner sep=0, minimum height=0.1mm, minimum width=2mm, ultra thin, rounded corners=0.0cm, rotate=45] (c2) at (0.5mm,0.5mm) {};
+\end{tikzpicture}

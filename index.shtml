@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Olivier, LEMAIRE">
+        <meta name="keywords" content="linux, command, bash">
+        <title>Bienvenue !</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link href="css/osws.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--#include virtual="header.html" -->
+        <!--#include virtual="menu.html" -->
+            <div id="content">
+                <h1>Bienvenue sur la page d'Olivier LEMAIRE</h1>
+                <div class="update">
+                    Mise à jour : 19 Juin 2013 -- 21H49
+                </div>
+                <p>Bonjour</p>
+                <p>Ce site est en cours de construction et de nombreux éléments ne sont
+                pas terminés. Aussi je vous demande d'être indulgent si d'aventure vous
+                atterrissiez ici.</p>
+                <h2 id="presentation">Présentation</h2>
+                <p>Je m'appelle Olivier LEMAIRE et je suis ingénieur de
+                recherche au laboratoire <a
+                    href="http://www-subatech.in2p3.fr/fr/">SUBATECH
+                    (CNRS/IN2P3)</a> de Nantes. Je suis électronicien de
+                formation et je suis en charge, pour l'expérience XEMIS de
+                l'électronique <em>front-end</em> pour la lecture du signal
+                d'ionisation d'une <a href="">TPC</a>.</p>
+ 
+                <h2 id="motivations">Motivation(s)</h2>
+                <p>Ma motivation pour écrire cette page est de faire partager
+                mon expérience dans la recherche de solutions ouvertes ou
+                <em>open-source</em>.</p>
+                <p>Bien que je sois convaincu qu'il n'est pas toujours facile
+                de trouver et de proposer des solutions ouvertes lors de la
+                conception d'un projet complexe où de nombreuses disciplines
+                interviennent, je reste persuadé que si elles existent
+                ces alternatives méritent, la plupart du temps, qu'on s'y intéresse car
+                elles offrent de très nombreux avantages.</p>
+            </div>
+            <ul id="pageMenu">
+                <li><a href="#top">Bienvenue</a></li>
+                <li><a href="#presentation">Presentation</a></li>
+                <li><a href="#motivations">Motivations</a></li>
+            </ul>	
+    </body>
+</html>

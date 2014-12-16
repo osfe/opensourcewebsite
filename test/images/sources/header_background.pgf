@@ -1,0 +1,4 @@
+\begin{tikzpicture}[]
+\definecolor{T}{RGB}{0 28 39}
+\node[inner sep=0, minimum width=1px, minimum height=150px, fill=T]  at (0,0) {};
+\end{tikzpicture}

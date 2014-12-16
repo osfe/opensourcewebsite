@@ -1,0 +1,121 @@
+/* css file for printing */
+
+/* ****************************************************************************
+ * RESET CSS
+ * This part of the file is intended to clear default browser formating 
+ * ***************************************************************************/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+    font-weight: normal;
+}
+table { 
+    border-collapse: collapse; 
+    border-spacing: 0;
+}
+
+td, th, caption { 
+    font-weight: normal; 
+    text-align: left; 
+}
+
+img, fieldset { 
+    border: 0; 
+}
+
+ol { 
+    padding-left: 0; 
+    list-style: decimal; 
+}
+
+ul { 
+    padding-left: 0; 
+    list-style: none;
+}
+
+q:before, q:after { content:''; }
+
+
+/* ****************************************************************************
+ * CSS 
+ * ***************************************************************************/
+
+/* basic formatting */
+
+html,body {
+    /* background-image: url('../images/PNG/background_LR.png'); */
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    background-color : white;
+    color : LightGray;
+}
+
+body {
+    width:75%;
+    margin:auto;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #0A5C9A;
+    font-variant: small-caps;
+    font-weight: bold;
+    border-bottom: 1px solid #D22601;
+    margin: 5px 0 10px 0;
+}
+
+h1 {
+    font-size: 175%;
+    text-align: right;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+h3 {
+    font-size: 125%;
+}
+h4 {
+    font-size: 110%;
+}
+
+
+/* div formatting */
+
+#header {
+    display:none;
+}
+
+#menu {
+    display:none;
+}
+
+
+#pageMenu {
+    display:none;
+}
+
+
+#update {
+    display:none;
+}
+
+/* class formating */
+
+.rightBox {
+    float:right;
+    text-align:right;
+}
+
+#content {
+    width: 95%;
+    margin: auto;
+}
+
+.leftCol {
+    margin-left: 5px;
+    font-size:smaller;
+}
+

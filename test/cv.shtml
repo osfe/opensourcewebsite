@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+    <head>
+	<title>CV ingénieur électronique analogique numérique</title>
+	<meta name="keywords" content="cv, ingénieur, électronique,micro,
+	analogique,numérique,C,python, controlleur">
+	<meta name="google-site-verification" content="ghhkobElfy3_CRbJLIJlwILnL54b-JoxohZiLYL0ZsU">
+	<meta name="description" content="cv ingénieur électronique et
+	micro-électronique, analogique et numérique avec compétence en python et
+	en C">
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<link href="css/osws.css" rel="stylesheet" type="text/css">
+	<link href="css/menu.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+	<!--#include virtual="header.html" -->
+	<!--#include virtual="menu.html" -->
+	<!-- div id="wrapper"-->
+	    <div id="content">
+		<h1>Ingénieur (micro)-électronicien</h1>
+		<div class="update">
+		    Mise à jour : 01 Juillet 2013 07h30
+		</div>
+		<h2>Présentation</h2>
+		<ul class="rightBox">
+		    <li>35 ans</li>
+		    <li>Permis B</li>
+		    <li>Concubinage</li>
+		    <li>Bilingue EN/FR</li>
+		</ul>
+		<ul>
+		    <li>Olivier LEMAIRE</li>
+		    <li>44000 Nantes</li>
+		    <li>Tel: 06 78 86 91 17</li>
+		    <li><span class="mail"><a class="mail"
+			    href="mailto:contact@olivier-lemaire.eu?Subject=from%20website%20cv">contact@olivier-lemaire.eu</a></span></li>
+		</ul>
+		<h2 id="experience">Expériences</h2>
+		<h3>Expériences significatives</h3>
+		<div class="experience">
+		    <div class="line"> 
+			<div class="leftCol"> 
+			    2010 -- en cours 
+			</div>
+			<div class="rightCol"> SUBATECH, Nantes, Durée : 44 mois (renouvelé en janvier 2013) </div>
+		    </div>
+		    <div class="line">
+			<div class="leftCol">
+			    Poste 
+			</div>
+			<div class="rightCol">
+			    Ingénieur de recherche (IR2) dans le groupe <span class="popup">Xénon<span>Groupe du
+				    laboratoire SUBATECH dont les domaines de recherche sont la matière noire et
+				    l'imagerie médicale Compton</span></span> pour l'experience 
+			    <span class="popup">XEMIS<span>Caméra Compton au xénon liquide pour l'imagerie
+				    médicale</span></span>, spécialité micro-électronique, électronique  et
+			    instrumentation
+			</div>
+		    </div>
+		    <div class="line">
+			<div class="leftCol">
+			    Mission Principale 
+			</div>
+			<div class="rightCol">
+			    Intégration sur XEMIS d'une électronique nouvelle et préparation de XEMIS2, prototype
+			    petit animal de la camera
+			</div>
+		    </div>
+		    <div class="line">
+			<div class="leftCol">
+			    Détail 
+			</div>
+			<div class="rightCol">
+			    <ul class="list"> 
+				<li>Modification de l'organisation
+				d'un ASIC (<a href="http://goo.gl/qnckA"	target="_blank">IDeFX</a>) pour
+				permettre la parallélisation des sorties
+				<ul class="sublist">	
+				    <li>modification de la hiérarchie (schématique),</li>
+				    <li>implantation d'un buffer de sortie (schématique et layout),</li>
+				    <li>export, envoie et suivi de fabrication;</li>
+				    <li>bounding de l'ASIC sur carte de test (Chip-On-Board)</li>
+				</ul>
+				</li>
+				<li>Conception d'un ASIC de traitement pré acquisition
+				<ul class="sublist">
+				    <li>conception en VHDL et VHDL-AMS d'un circuit de traitement du signal avant
+				    acquisition en vu d'extraire les informations utiles en utilisant un CFD</li>
+				</ul>
+				</li>
+
+				<li>mise au point d'un banc de test de l'ASIC
+				<ul class="sublist">
+				    <li>Conception, layout, suivi de fabrication, approvisionnement composants et
+				    câblage de plusieurs cartes de test;</li>
+				</ul>
+				</li>
+				<li>écriture d'un logiciel de contrôle de l'ASIC
+				<ul class="sublist">
+				    <li>design et conception d'une interface graphique pour le pilotage
+				    <em>slow-control</em> de l'ASIC depuis un PC sous Linux ou Windows
+				    (C++/Python/Qt)</li>
+				</ul>
+				</li>
+				<li>écriture en C du micro-logiciel d'un micro contrôleur (ATMEL) pour le pilotage
+				<em>slow-control</em> de  l'ASIC IDeFX
+				<ul class="sublist">
+				    <li>développement d'un micro-logiciel en C
+				    en utilisant l'avr-libc,</li>
+				    <li>un buffer circulaire, USART par interruption, I/O bit-banging</li>
+				</ul>
+				</li>
+			    </ul>
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2009 -- 2010
+			</div>
+			<div class="rightCol">
+			    Ingénieur micro électronicien, CEA de Saclay, Saclay
+			    (IdF), Durée: 18 mois
+			</div>
+		    </div>
+		    <div class="line">
+			<div class="leftCol">
+			    Poste
+			</div>
+			<div class="rightCol">
+			    Poste Ingénieur chercheur sur le projet MACSI (IdefX-HD & Caliste) au sein de l'IRFU
+			</div>
+		    </div>
+		    <div class="line">
+			<div class="leftCol">
+			    Mission
+			</div>
+			<div class="rightCol">
+			    <ul class="list">
+				<li> Design d'un driver CMOS vers LVDS et d'un
+				étage différentiel de sortie </li>
+
+				<li>Participation à l'intégration d'une interface numérique de
+				contrôle multi-ASIC au sein du circuit
+				<ul class="sublist">
+				    <li>simulation avec rétro-annotation,</li>
+				    <li>placement routage automatique,</li>
+				    <li>écriture de testbench verilog;</li>
+				</ul>
+				</li>
+				<li>Participation à l'intégration des ASIC s au sein du module CALISTE
+				<ul class="sublist">
+				    <li>Rédaction du document technique de
+				    support pour le montage de l'ASIC dans le
+				    module</li>
+				</ul>
+				</li>
+				<li>Test préliminaire de l'ASIC IdefX-HD et rédaction de documents techniques</li>
+			    </ul>
+			</div>
+		    </div>
+		</div>
+		<h3>Expériences Indicatives</h3>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2001 -- 2002
+			</div>
+			<div class="rightCol">
+			    Vendeur, FNAC, Annecy (temps partiel)
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2000 -- 20001
+			</div>
+			<div class="rightCol">
+			    Menuisier Ébéniste, Divers artisans, Annecy (temps
+			    complet)
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    1999 -- 2000
+			</div>
+			<div class="rightCol">
+			    Manager, McDonald's, Sevrier. Organisation du travail pour une
+			    équipe de 5 à 15 personnes (temps complet)
+			</div>
+		    </div>
+		</div>
+		<h2 id="formation">Formations</h2>
+		<h3>Formations Principales</h3>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2007 -- 2008
+			</div>
+			<div class="rightCol">
+			    Échange universitaire (2 semestres) , University of Vermont , Burlington, Vermont, USA
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2005 -- 2008
+			</div>
+			<div class="rightCol">
+			    Diplôme d'ingénieur , École Nationale Supérieure d'Ingénieurs de Caen (ENSICAEN ) , Caen
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2003 -- 2005
+			</div>
+			<div class="rightCol">
+			    Élève en classe préparatoire, Lycée Gaspard Monge, Chambéry
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    2001 -- 2003
+			</div>
+			<div class="rightCol">
+			    Baccalauréat technologique, Lycée Louis Lachenal, Annecy, mention Bien
+			</div>
+		    </div>
+		</div>
+		<h3>Autre formation</h3> 
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    1997 -- 1999
+			</div>
+			<div class="rightCol">
+			    CAP d'ébénisterie, Lycée Porte des Alpes, Rumilly (74)
+			</div>
+		    </div>
+		</div>
+		<h2 id="competence">Compétences</h2>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    Électronique
+			</div>
+			<div class="rightCol">
+			    <ul class="list">
+				<li>Design analogique et numérique MOS</li>
+				<li>Conception électronique analogique</li>
+			    </ul>
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    Informatique
+			</div>
+			<div class="rightCol">
+			    <ul class="list">
+				<li>Cadence Virtuso, CADSOFT Eagle, formation
+				prévue pour Cadence PCB</li>
+				<li>Linux</li>
+				<li>langage C, python, PyQt</li>
+				<li>notions de verilog et C-embarqué</li>
+				<li>LATEX</li>
+			    </ul>
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    Linguistique
+			</div>
+			<div class="rightCol">
+			    Bilingue Anglais/Français (Vécu 13 mois aux États
+			    Unis)
+			</div>
+		    </div>
+		</div>
+		<h2 id="interet">Intérêts</h2>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    Culture
+			</div>
+			<div class="rightCol">
+			    Cinéma, musique, lecture, Théâtre							
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    Sport
+			</div>
+			<div class="rightCol">
+			    Cyclisme
+			</div>
+		    </div>
+		</div>
+		<div class="experience">
+		    <div class="line">
+			<div class="leftCol">
+			    Informatique
+			</div>
+			<div class="rightCol">
+			    Langages de programmation. Logiciel libre
+			</div>
+		    </div>
+		</div>
+	    </div>
+	    <ul id="pageMenu">
+		<li><a href="#top">Présentation</a></li>
+		<li><a href="#experience">Expériences</a></li>
+		<li><a href="#formation">Formation</a></li>
+		<li><a href="#competence">Compétences</a></li>
+		<li><a href="#interet">Intérêts</a></li>
+	    </ul>	
+	<!-- /div-- >
+    </body>
+</html>

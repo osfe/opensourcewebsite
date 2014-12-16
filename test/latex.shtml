@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head> 
+		<title>CV ingénieur électronique analogique numérique</title> 
+		<meta name="keywords" content="cv, ingénieur, électronique,micro,
+		analogique,numérique,C,python, controlleur">
+		<meta name="google-site-verification"
+		content="ghhkobElfy3_CRbJLIJlwILnL54b-JoxohZiLYL0ZsU"> 
+		<meta name="description" content="cv ingénieur électronique et micro-électronique, analogique et numérique avec compétence en python et
+		en C"> 
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"> 
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'> 
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link href="css/osws.css" rel="stylesheet" type="text/css">
+	</head> 
+	<body> 
+		<div id="header">
+			OpenSourceWebSite 
+		</div>
+		<!--#include virtual="menu.html" --> 
+		<div id="wrapper"> 
+			<div id="content">
+				<h1>Latex</h1> 
+				<div class="update"> 
+					Mise à jour : Jamais 
+				</div> 
+				<h2>Statut</h2> 
+				En construction...
+				<h2>Remplissage</h2> 
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+				condimentum, purus commodo feugiat scelerisque, lectus felis fringilla tortor,
+				et tincidunt erat tortor in libero. Pellentesque commodo ultrices mi, et
+				vehicula nunc tincidunt sit amet. Vivamus eget neque venenatis neque
+				sollicitudin porttitor in ac eros. Nulla facilisi. Sed tincidunt magna ac est
+				convallis ultricies. Sed at ante id neque lacinia tempor at et leo. Maecenas in
+				arcu adipiscing dolor vulputate dapibus. Nullam turpis metus, auctor id
+				consectetur sed, varius aliquet nunc. Cras quis erat elit. In feugiat felis vel
+				urna mollis congue. Quisque a congue libero. Donec quis nunc dolor, imperdiet
+				feugiat leo. Morbi dignissim sapien at ipsum consectetur et fermentum est
+				faucibus. Phasellus ut ligula eu enim rutrum blandit. Aenean eu mauris eu lacus
+				condimentum suscipit in sed dolor. Nullam vel turpis felis, non aliquam neque.
+				</p>
+
+				<p> Quisque sollicitudin sollicitudin velit, sit amet congue magna porta
+				vitae. Vivamus pulvinar pellentesque diam, sed vehicula arcu malesuada ut.
+				Vestibulum vestibulum posuere dui, id gravida sem egestas a. Vestibulum
+				convallis consectetur vestibulum. Integer aliquam, metus quis ullamcorper
+				consequat, ante nisi commodo turpis, faucibus condimentum tortor lacus ut enim.
+				In felis elit, volutpat sit amet eleifend a, pulvinar a eros. Nunc quis felis
+				nec nunc pharetra interdum. Aliquam ultricies malesuada massa, non vestibulum
+				neque facilisis non. In mollis vehicula justo, id volutpat orci ornare sit amet.
+				Aenean nec placerat arcu. Quisque lacinia dui vitae risus facilisis iaculis at
+				sit amet felis. </p> 
+
+				<p> Sed at fermentum erat. Integer arcu turpis, lacinia ac
+				egestas at, vehicula eget nisl. Quisque in massa eget ante ultricies congue.
+				Suspendisse placerat auctor ipsum ac accumsan. Nullam id lorem libero, vitae
+				aliquam diam. Pellentesque non pretium metus. Donec consectetur libero in nibh
+				dapibus sit amet porta est adipiscing. Cras vestibulum consequat mollis. Ut
+				vulputate felis sit amet erat sodales consectetur. Maecenas hendrerit
+				consectetur massa quis porta. </p> 
+
+				<p> Vestibulum ante ipsum primis in faucibus
+				orci luctus et ultrices posuere cubilia Curae; Suspendisse eu justo dolor, sit
+				amet ornare dui. Praesent lacus nunc, condimentum pulvinar hendrerit porttitor,
+				consequat eget quam. Aenean ipsum orci, posuere id dictum congue, ornare eu
+				orci. Integer lorem turpis, elementum at egestas quis, adipiscing ut nulla.
+				Maecenas ante mi, consectetur vitae vestibulum non, rutrum eu neque. Sed
+				interdum nulla vel erat facilisis tristique. Phasellus viverra erat id risus
+				vulputate quis convallis nunc lacinia. Quisque id nulla vitae massa mollis
+				eleifend vitae ac est. Proin sapien sapien, porttitor nec dignissim in, cursus
+				non arcu. Duis condimentum vehicula congue. Quisque mattis justo vitae tortor
+				facilisis nec sagittis ante interdum. Nam interdum velit in ligula lobortis sed
+				ultrices est consequat. Vivamus quis augue justo, in posuere nibh. Phasellus et
+				pharetra justo. Fusce sed arcu in quam tincidunt sollicitudin.  </p> 
+
+				<p>Vestibulum a mi sem. Duis semper mauris ut lectus vehicula vulputate mattis nibh
+				semper. Proin molestie bibendum dui, tempus condimentum turpis ornare vel. Duis
+				velit dui, pellentesque nec sagittis sit amet, dignissim id quam. Etiam rhoncus
+				dapibus faucibus. Suspendisse a quam non justo imperdiet tincidunt. Suspendisse
+				quis sodales sem. Nam lobortis luctus tincidunt. Class aptent taciti sociosqu ad
+				litora torquent per conubia nostra, per inceptos himenaeos. Ut cursus pharetra
+				mi, ut euismod diam facilisis nec. Sed eget ligula elit. Duis eu neque tellus,
+				non gravida magna. Mauris dignissim ultricies velit quis mollis. Lorem ipsum
+				dolor sit amet, consectetur adipiscing elit. Curabitur tempus, nisi id faucibus
+				mattis, nisl nibh venenatis diam, eget suscipit sem turpis tristique dui. In
+				condimentum facilisis velit, nec scelerisque sem molestie in.</p>
+			</div> 
+
+			<ul id="pageMenu"> 
+				<li><a href="#top">Statut</a></li>
+				<li><a href="#"></a></li>
+			</ul>
+			<div class="stat">
+				<!-- phpmyvisites -->
+				<a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics"
+					onclick="window.open(this.href);return(false);"><script type="text/javascript">
+						<!--
+						var a_vars = Array();
+						var pagename='';
+
+						var phpmyvisitesSite = 240204;
+						var phpmyvisitesURL = "http://st.free.fr/phpmyvisites.php";
+						//-->
+					</script>
+					<script language="javascript" src="http://st.free.fr/phpmyvisites.js" type="text/javascript"></script>
+					<object><noscript><p>phpMyVisites | Open source web analytics
+							<img src="http://st.free.fr/phpmyvisites.php" alt="Statistics" style="border:0" />
+							</p></noscript></object></a>
+							<!-- /phpmyvisites --> 
+			</div>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+	<head>
+		<title>Composition d'un CV avec Latex</title>
+		<meta name="keywords" content="CV latex">
+		<meta name="google-site-verification" content="ghhkobElfy3_CRbJLIJlwILnL54b-JoxohZiLYL0ZsU">		
+		<meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+		<meta name="description" content="Compilation kicad">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<link href="css/osws.css" rel="stylesheet" type="text/css">
+		<link href="css/menu.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			I am a header !
+		</div>
+		<!--#include virtual="menu.html" -->
+		<div id="wrapper">
+			<div id="content">
+				<h1>Composition d'un CV avec Latex -- En construction</h1>
+				<div class="update">
+					Mise à jour : 26 septembre 2012 12h50</br>
+					Article en cours de rédaction pouvant contenir des erreurs et des fautes
+				</div>
+
+				<h2>Introduction</h2>
+				<p>Je vais essayer de donner ici des pistes pour la composition
+				d'un CV. Il est important de passer du temps pour mettre au
+				point son cv et partir du principe que tous les détails
+				comptent, même ceux qui ne se voient pas au premier coup d'oeil.
+				Une indentation peu précise, une police de mauvaise qualité, une
+				mauvaise justification, des graphismes qui pixelisent et bien
+				d'autres détails sont des points qui ne changent rien au fond du
+				document mais qui peuvent donner au lecteur une impression de
+				mauvaise qualité. Le CV est en général un de vos premiers
+				contacts avec le recruteur et il permet une premère sélection.
+				Si un recruteur lit 50 CV word dans une journée et un CV Latex
+				soigné, il y a fort à parier qu'il n'aura aucune idée que le CV
+				latex été fait avec LaTeX mais il retiendra son attention.</p>
+
+				<h2>Définitions globales</h2> Dans ce document, je suis parti de
+				la classe <em>minimal</em> et j'ai défini tous mes besoins
+				moi-même.
+				<h3>Layout de la page</h3> 
+				<p>J'utilise le package geometry. Je définis une
+				marge au sommet de 1cm, une largeur de texte de 18cm et une
+				hauteur de texte de 27cm. L'utilisation du package geometry
+				simplifie grandement la mise en page.</p>
+
+				<p>J'ai aussi défini des longueurs que j'utiliserai tout au long
+				du document. L'avantage de définir des longueurs est qu'elles
+				peuvent être utilisées partout dans le document et que la
+				modification d'une longueur impacte tout le document sans que
+				nous ayons à nous en soucier. Ces longueurs sont définies en
+				fonction de la largeur de texte du document (\textwidth). Ainsi,
+				si l'utilisateur souhaite utiliser un papier de type letter au
+				lieu de A4 et modifier les marges, les longueurs seront
+				automatiquement modifiées comme il faut.</p>
+
+				<ol class="code"> 
+					<li>\newlength\myNewLength</li>
+					<li>\setlength\myNewLength{.8\textwidth}</li>
+				</ol>
+
+				<ul> 
+					<li>largeur de la marge 0.15\textwidth</li>
+
+					<li>largeur du corps du texte
+						0.83\textwidth</li>
+
+					<li>separation entre la marge et le corps
+					0.02\textwidth</li>
+				</ul>
+
+				<h3>Police</h3>
+				<p>Dans la version précédente de mon cv j'ai utilisé une police
+				de type times donc serif pour le corps du texte. J'utilisais du
+				sans serif pour les titres de façon à bien les mettre en
+				évidence. Plus tard j'ai fait un essai de cv entèrement en sans
+				serif et j'ai trouve le résultat plus professionnel, en
+				particulier pour une personne du domaine scientifique. J'ai donc
+				conservé cette configuration. Pour ce faire j'utilise le package
+				helvet et je redéfinie la famille par défaut en sans serif.
+				Cette information provient du Latex font catalogue.</p> 
+				<ol class="code"> 
+					<li>\usepackage[T1]{fontenc}</li>
+					<li>\usepackage[utf8x]{inputenc} \usepackage[scaled]{helvet}</li>
+					<li>\usepackage{marvosym}</li>
+					<li>\renewedcommand\familydefault{sfdefault}</li>
+				</ol>
+
+				<p>La police du document est un élément important dans la
+				composition du CV. Il faut utiliser des polices facile à lire
+				comme par exemple la police times, élégante et sans fioritures.
+				Un recruteur passe très peu de temps à lire un cv. Par
+				conséquent si il doit passer 75% du temps pour déchiffrer des
+				polices alambiquées, il est fort possible qu'il n'arrive pas à
+				la fin du document et que votre document finisse à la poubelle.
+				Voici ma ligne de conduite</p>
+				<ul class="squarelist"> 
+					<li>Proscrire la police comics car nous ne sommes pas des
+					clowns</li> 
+					<li>Proscrire les polices gothiques ou calligraphiées trop
+					difficile à lire</li> 
+					<li>Minimiser le nombre de polices utilisées; 3 étant le
+					grand maximum (serif/sans/typewritter). Je préfère limiter à
+					deux.</li> 
+					<li>Si plusieurs polices sont utilisées. il faut veiller à
+					ce qu'elles s'harmonisent correctement. Il est ici possible
+					de s'aider des packages.</li>
+					<li>Si plusieurs polices sont utilisées, une de ces polices
+					sert pour le corps du texte et l'autre pour les titres</li>
+				</ul>
+
+				<h2>Graphisme</h2> 
+				<p>Comme vous pouvez le
+				constater de nombreux elements graphiques sont utilisés dans ce
+				document: des règles, des bordures, des dégradés de couleur et
+				évidemment une photo.</p> 
+				<p>La photo est une
+				photo <ol class="code">*.jpeg</ol> prise avec un APN de très grande
+				résolution chez un professionnel que j'ai converti en
+				<ol class="code">*.pdf</ol>. La conversion raster vers vectoriel est
+				inutile mais je prefereais faire comme ca.</p>
+
+				<p>Pour tout le reste des éléments graphiques,
+				j'utilise le package tikz. Je suppose que la même chose est
+				réalisable avec d'autres packages mais je connais assez bien
+				tikz, je trouve le résultat très satisfaisant, sa syntaxe est
+				proche du latex et puis je fais bien ce que je veux. Il faudra
+				donc veiller à charger le package et les librairies</p>
+				<ol class="code">
+					\usepackage{tikz} \usetikzlibrary{positioning,calc}
+					\pgfdeclarelayer{background} \pgfsetlayers{background,main}
+				</ol> 
+				
+				<h2>Nouvelle commande cvline</h2> 
+				La commande cvline
+				permet de définir, comme son nom l'indique, un ligne de cv.
+				Cette ligne est constituée de 2 parboxes et un epace 
+				<ul>
+					<li>marge -- espace de gauche qui contient essentiellement
+					les dates</li> 
+					<li>séparation -- espace entre la marge et le
+					corps de texte du document</li> 
+					<li>corps de texte -- le
+					corps du document</li> 
+				</ul>
+				<ol class="code"> 
+					\newcommand*{\cvline}[3][0.25\baselineskip]{%
+					\noindent\parbox[t]{\marginwidthcv}{\raggedleft#2}%
+					\hspace{\sepcv}%
+					\parbox[t]{\textwidthcv}{#3}\par\vspace{#1}}
+				</ol>
+
+				<p>Dans
+				cette commande 3 arguments dont 1 optionnel. Les arguments deux
+				et trois seront évidement du texte. Quant à l'argument #1, c'est
+				un argument qui nous permet, en cas de besoin, d'augmenter
+				l'espace qui suit cette ligne. </p>
+				
+				<h2>Le titre</h2>
+				<P>Cet élément du
+				CV peut paramètre inutile mais il permet, à mon goût une
+				identification immédiate du candidat. En un seul coup d'oeil et
+				si ce titre a été correctement choisi, le lecteur sait si le
+				document qu'il tient dans ses mains est bien celui qu'il
+				cherche.</p>
+
+				<p>J'utilise tikz pour creer ce titre. tikz est une interface très
+				pratique pour créer des objets graphiques dans les documents
+				LaTeX.</p>
+
+				[caption id="attachment_415" align="aligncenter" width="700"]<a
+					href="http://olivierlemaire.files.wordpress.com/2010/05/header11.png"><img
+					class="size-full wp-image-415" title="header1"
+					src="http://olivierlemaire.files.wordpress.com/2010/05/header11.png"
+					alt="" width="700" height="70" /></a> Exemple de titre
+				1[/caption]
+
+				&nbsp;
+
+				[caption id="attachment_416" align="aligncenter" width="700"]<a
+					href="http://olivierlemaire.files.wordpress.com/2010/05/header2.png"><img
+					class="size-full wp-image-416" title="header2"
+					src="http://olivierlemaire.files.wordpress.com/2010/05/header2.png"
+					alt="" width="700" height="59" /></a> Exemple de titre
+				2[/caption]
+
+				&nbsp;
+
+				[caption id="attachment_417" align="aligncenter" width="700"]<a
+					href="http://olivierlemaire.files.wordpress.com/2010/05/header3.png"><img
+					class="size-full wp-image-417" title="header3"
+					src="http://olivierlemaire.files.wordpress.com/2010/05/header3.png"
+					alt="" width="700" height="61" /></a> Exemple de titre
+				3[/caption]
+
+				&nbsp;
+
+				[caption id="attachment_418" align="aligncenter" width="700"]<a
+					href="http://olivierlemaire.files.wordpress.com/2010/05/header4.png"><img
+					class="size-full wp-image-418" title="header4"
+					src="http://olivierlemaire.files.wordpress.com/2010/05/header4.png"
+					alt="" width="700" height="47" /></a> Exemple de titre
+				4[/caption]
+
+				<ol class="code">
+					\noindent\begin{tikzpicture}[thick]
+					\node[font=\sffamily\Large,% inner sep=2.5mm,% fill=gray!20,
+					text=orangeDarkcv] (titre) at (0,0) {Le titre de votre CV
+					sur une seule ligne en sans serif Large}; \draw[color=black]
+					(titre.north west) -- ($(titre.south west)+(0,-2.5mm)$);
+					\draw[color=orangeDarkcv] (titre.south east) --
+					($(titre.south west)+(-2.5mm,0)$);
+					\end{tikzpicture}
+				</ol>
+
+				La méthode est plutot simple. Je crée dans un environment
+				tikzpicture un noeud que je nomme et dans lequel j'écris mon
+				titre. Ensuite je décore ce noeud en utilisant les ancres
+				disponible sur ce noeud. La bibliothèque calc va nous servir ici
+				pour les petits calculs des lignes 6 et 7 du listing.
+				<h2>Le header</h2>
+				<a
+					href="http://olivierlemaire.files.wordpress.com/2010/05/header1.png"><img
+					class="size-full wp-image-386" title="header"
+					src="http://olivierlemaire.files.wordpress.com/2010/05/header1.png"
+					alt="Le header" width="700" height="108" /></a>
+
+				&nbsp;
+
+				<ol class="code"> % the header \tikzset{titleNode/.style={minimum
+					height=77pt}} % \noindent\begin{tikzpicture}[% node
+					distance=0pt,% font=\fontsize{10}{14}\selectfont] % global
+					style
+				</ol>
+
+				% Main node \node[% titleNode,% minimum width=0.995\textwidth]
+				(titleFrame) {\null};
+
+				% Information \node[% titleNode, left color=colorFill!25,
+				anchor=north west, inner xsep=1ex, text ragged,
+				text=colorTitle!50!black] (nameNaddress) at (titleFrame.north
+				west) {% % \begin{tabular}{p{0.75\textwidth}r} Olivier LEMAIRE
+				&amp; 32 ans \\ 22, Avenue \'Emile Zola &amp; C\'elibataire \\
+				75015 Paris &amp; Permis B \\ 06 78 86 91 17\\
+				m.olivier.lemaire@gmail.com \end{tabular}}; % picture \node[%
+				titleNode, thin, left=1pt of titleFrame.north east, anchor=north
+				east, inner sep=0pt, inner ysep=1pt] (photo)
+				{\includegraphics[height=75pt]{IDCV.pdf}}; % decoration %
+				\path[fill=colorFill!1] (titleFrame.north west) rectangle
+				(titleFrame.south east); \draw[very thick, rounded corners=1pt,
+				color=colorFill] (nameNaddress.north west) |- (titleFrame.south
+				east) |-(photo.north west); \end{tikzpicture}
+				<h2>Les sections</h2> Ce sont les parties du CV. Ces parties doivent
+				être clairement identifiables. D'un seul coup d'oeil on doit
+				pouvoir trouver ce qu'on cherche. C'est donc un compromis entre
+				voir et ne pas masquer le reste. On utilisera donc des
+				caractères gras, de taille supérieure à celle du texte courant.
+				Pour ma part j'ai choisi en plus de les mettre en couleur et
+				d'utiliser des petites capitales (différentes des grandes
+				capitales...).
+
+				<ol class="code"> \newcounter{section} \setcounter{section}{0}
+					\newcommand*\section[1]{ \phantomsection{}%
+					\addcontentsline{toc}{part}{#1}% \vspace{2ex plus 0.5ex
+					minus 0.2ex}\noindent% \begin{tikzpicture}% \path[] (0,0) --
+					++(\marginwidthcv,0) coordinate (t); \path[ shade,
+					left color=colorFill, right color=colorFill!5, ultra thin]
+					(0,1pt) rectangle ++(\textwidth,0.5ex); \node[anchor=south
+					west, inner ysep=0pt, inner xsep=\sepcv, fill=white,
+					draw=white, thick, text=colorTitle] at (t)
+					{\fontsize{13pt}{14pt}\fontshape{sc}\fontseries{b}\selectfont#1};
+					\end{tikzpicture}\par\vspace{2ex plus 0.5ex minus 0.2ex}}
+				</ol>
+			</div>
+			<ul id="pageMenu">
+				<li><a href="#top">Composition CV</a></li>
+				<li><a href="#intro">Introduction</a></li>
+				<li><a href="#schem">Définitions générales</a>
+					<ul>
+						<li>Layout</li>
+						<li>Police</li>
+					</ul></li>
+				<li>Graphisme</li>
+				<!--li><a href="#competence">Compétences</a></li>
+				<li><a href="#interet">Intérêts</a></li-->
+			</ul>	
+		</div>
+	</body>
+</html>

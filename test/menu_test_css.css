@@ -1,0 +1,302 @@
+/* ****************************************************************************
+ * RESET CSS
+ * This part of the file is intended to clear default browser formating 
+ * ***************************************************************************/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+
+td, th, caption { 
+	font-weight: normal; 
+	text-align: left; 
+}
+
+img, fieldset { 
+	border: 0; 
+}
+
+ol { 
+	padding-left: 0; 
+	list-style: decimal; 
+}
+
+ul { 
+	padding-left: 0; 
+	list-style: none;
+}
+
+q:before, q:after { content:''; }
+
+/* ****************************************************************************
+ * BASE STYLE
+ * This part contains all definition for basic and global formatting
+ * ***************************************************************************/
+html,body {
+	background-image: url('../images/PNG/background_LR.png');
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	background-color : #001C27; 
+	color : LightGray;
+}
+
+h1, h2, h3, h4, h5 {
+	color: DodgerBlue;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-bottom: 1px solid #D22601;
+	margin: 20px 0 10px 0;
+	padding: 0 0 0 0;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: right;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+a {
+	background-image: url('../images/SVG/link_unvisited.svg');
+	background-position: center left;
+	padding-left: 16px;
+	background-repeat: no-repeat;
+	color : LightGray;
+	text-decoration: None;
+}
+
+a[href^='mailto:'] {
+	background-image: url('../images/SVG/link_mail.svg');
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left 50%;
+}
+a:link {
+	border: 0px;
+}
+
+a:visited {
+}
+
+a:hover {
+	color: Orange;
+}
+
+a:active {
+}
+
+a:focus {
+	border: 0px;
+	text-decoration: none;
+	outline: none; /* remove border when focus*/
+	border-bottom: 1px solid red;
+}
+
+p {
+	color : LightGray;
+	font-family: 'Droid Sans', sans-serif;
+	font-size : 100%;
+	text-align: justify;
+	padding-bottom: 5px;
+}
+
+table {
+	border: 1px solid LightGray;
+	cellspacing: 15px; 
+}
+
+td, col, th {
+	border: 1px solid lightGray;
+	padding: 2px 15px 2px 15px;
+}
+
+
+
+img {
+	border: 1px solid dodgerBlue;
+	padding: 3px;
+}
+
+.imgWrapper {
+	width: 650px;
+	padding-top: 20px;
+	margin: auto;
+}
+
+.imgWrapper p {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.imgWrapper a {
+	background-image: None;
+	margin-top: 0;
+	padding: 0;
+}
+
+
+/* ****************************************************************************
+ * Layout
+ * ***************************************************************************/
+#header {
+	height: 130px;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 17.5% 0 17.5%;
+	min-width: 800px;
+	margin-top: 80px;
+	/*border: 1px solid magenta;*/
+}
+
+#content {
+	float: right;
+	/*margin: 0 0 500px 220px;*/
+	padding: 0 20px 1000px 250px;
+	border-right: 1px solid #00354A;
+	/*border: 1px solid blue;*/
+}
+
+#pageMenu {
+	background: url('../images/PNG/left_menu_background.png');
+	position: fixed;
+	margin: 0;
+	padding: 5px;
+	text-align: left;
+	width: 180px;
+	border: 1px solid DodgerBlue;
+	/* border-radius: 5px; */
+}
+
+#pageMenu a {
+	background: none;
+}
+
+.rightBox {
+	float: right;
+	text-align: right;
+}
+
+
+.stat {
+	position: fixed;
+	bottom: -30px;
+	right: 0;
+}
+
+/******************************************************************************
+ * other elements
+ * ***************************************************************************/
+.update {
+	margin: 20px 0 0 0;
+	border: 1px solid #00354A;
+	text-align: center;
+	font-size: 50%;
+}
+
+.experience {
+	margin: 25px 0 25px 0;
+	padding-left: 5px;
+	border-left: 1px solid red; 
+}
+
+.line {
+	border-bottom: 1px solid #00354A;
+	margin: 0 0 10px 0;
+}
+
+
+.leftCol{
+	width: 20%;
+	font-weight: Bold;
+	min-width: 10em;
+	float: left;
+}
+
+.rightCol {
+	margin: 0 0 5px 25%;
+	text-align: justify;
+}
+
+/* ****************************************************************************
+ * Lists
+ * ***************************************************************************/
+.list {
+	text-indent: 0px;
+	Margin: 0px;
+	padding: 0px;
+	line-height: 150%;
+}
+
+.sublist {
+	text-indent: 0px;
+	Margin: 0px 0 10px 20px;
+	padding: 5px 0 0 0;
+	line-height: 125%;
+}
+
+.subsublist {
+	text-indent: 0px;
+	Margin: 5px 0 0 20px;
+	padding: 5px 0 0 0;
+	line-height: 125%;
+}
+
+.sublist li {
+	list-style: square;
+	line-height: 24px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin: 0 0 0 15px;
+	padding: 0 0 5px 0;
+	/*padding-left: 5px;*/
+}
+
+/* ****************************************************************************
+ * Popups
+ * ***************************************************************************/
+
+.popup {
+	position: relative;
+	border-bottom: 1px dotted lightGray;
+	padding-left: 2px;
+}
+
+.popup:hover {
+	color: dodgerBlue;
+}
+
+.popup span {
+	position: absolute;
+	width: 400px;
+	padding: 5px;
+	left: -1000px;
+	visibility: hidden;
+	background-color: lightGray;
+	padding: 2px;
+	border: 1px dotted dodgerBlue;
+}
+
+.popup:hover span {
+	visibility: visible;
+	left: -1px;
+	top: -1px;
+	z-index: 50;
+}
+
+
+

@@ -1,0 +1,409 @@
+/* ****************************************************************************
+ * RESET CSS
+ * This part of the file is intended to clear default browser formating 
+ * ***************************************************************************/
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+}
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+
+td, th, caption { 
+	font-weight: normal; 
+	text-align: left; 
+}
+
+img, fieldset { 
+	border: 0; 
+}
+
+ol { 
+	padding-left: 0; 
+	list-style: decimal; 
+}
+
+ul { 
+	padding-left: 0; 
+	list-style: none;
+}
+
+q:before, q:after { content:''; }
+
+/* ****************************************************************************
+ * BASE STYLE
+ * This part contains all definition for basic and global formatting
+ * ***************************************************************************/
+html,body {
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 16px;
+	line-height: 24px;
+	background-color : #001C27; 
+	color : LightGray;
+}
+
+html {
+    background-image: url('../images/PNG/background_LR.png');
+}
+
+h1, h2, h3, h4, h5 {
+	color: DodgerBlue;
+	font-variant: small-caps;
+	font-weight: bold;
+	border-bottom: 1px solid #D22601;
+	margin: 20px 0 10px 0;
+	padding: 0 0 0 0;
+}
+
+h1 {
+	font-size: 175%;
+	text-align: right;
+}
+
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
+a {
+	/**background-image: url('../images/SVG/link_unvisited.svg');**/
+	background-position: center left;
+	background-repeat: no-repeat;
+	color : Orange;
+	text-decoration: None;
+}
+
+a[href^='mailto:'] {
+	background-image: url('../images/SVG/link_mail.svg');
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: left 50%;
+}
+a:link {
+	border: 0px;
+}
+
+a:visited {
+}
+
+a:hover {
+	color: Orange;
+}
+
+a:active {
+}
+
+a:focus {
+	border: 0px;
+	text-decoration: none;
+	outline: none; /* remove border when focus*/
+	border-bottom: 1px solid red;
+}
+
+p {
+	color : LightGray;
+	font-family: 'Droid Sans', sans-serif;
+	font-size : 100%;
+	text-align: justify;
+	padding-bottom: 5px;
+}
+
+table {
+	border: 1px solid LightGray;
+}
+
+td, col, th {
+	border: 1px solid lightGray;
+	padding: 2px 15px 2px 15px;
+}
+
+
+
+img {
+	border: 1px solid dodgerBlue;
+	padding: 3px;
+}
+
+
+/* ****************************************************************************
+ * Layout
+ * definition of the class related to the layout of the page
+ * ***************************************************************************/
+#header {
+    height: 0px;
+    font-family: Courier, monospace;
+    margin: 5px 17.5% 0 17.5%;
+}
+
+/* The css main menu is deffered to menu.css */
+
+#wrapper {
+    position: relative;
+    margin: 25px 17.5% 0 17.5%;
+    min-width: 800px;
+    margin-top: 80px;
+    border: 1px solid magenta; 
+}
+
+#content {
+    float: right;
+    padding: 0 20px 1000px 200px;
+    border-right: 1px solid #00354A;
+}
+
+
+#pageMenu {
+    background: url('../images/PNG/left_menu_background.png');
+    position: fixed;
+    margin: 0;
+    padding: 5px;
+    text-align: left;
+    font-size:85%;
+    width: 160px;
+    border: 1px solid DodgerBlue;
+    /* border-radius: 5px; */
+}
+
+
+.rightBox {
+    float: right;
+    text-align: right;
+}
+
+.stat {
+    position: fixed;
+    bottom: -30px;
+    right: 0;
+}
+
+/* ****************************************************************************
+ * Images and icons
+ * ***************************************************************************/
+
+.imgWrapper {
+	position: relative;
+	width: 50%;
+	margin-left: auto;
+    margin-right: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+.imgWrapper img{
+	display: block;
+	width: 100%;
+	margin: auto;
+}
+
+
+.imgWrapper p {
+	width: 100%;
+	padding-top: 5px;
+	text-align: center;
+}
+
+.imgWrapper a {
+	background-image: None;
+	margin-top: 0;
+	padding: 0;
+}
+
+.icon {
+	width: 32px;
+	border: None;
+}
+
+
+
+
+
+/* ****************************************************************************
+ * Content
+ * ***************************************************************************/
+#content ul {
+    list-style-type: none;
+}
+
+#content ul li:before {
+    content: "\2192";
+	color: dodgerBlue;
+}
+
+#content ul li {
+	padding-left: 0px;
+}
+
+#content ul li ul li:before {
+	content: none;
+}
+
+/******************************************************************************
+ * other elements
+ * ***************************************************************************/
+.update {
+	margin: 20px 0 0 0;
+	border: 1px solid #00354A;
+	text-align: center;
+	font-size: 50%;
+}
+
+.update:hover {
+   border: 2px solid red;
+   font-size: 100%;
+}
+
+.experience {
+	margin: 25px 0 25px 0;
+	padding-left: 5px;
+	border-left: 1px solid red; 
+}
+
+.line {
+	border-bottom: 1px solid #005475; /* #00354A; */
+	margin: 0 0 10px 0;
+}
+
+
+.leftCol{
+	width: 20%;
+	font-weight: Bold;
+	min-width: 10em;
+	float: left;
+}
+
+.rightCol {
+	margin: 0 0 5px 25%;
+	text-align: justify;
+}
+
+/* ****************************************************************************
+ * Lists
+ * ***************************************************************************/
+/*** Squared list ***/
+.squarelist {
+	list-style: square;
+	margin-left: 25px;
+	padding: 10px 0 10px 10px;
+}
+
+
+
+.list {
+	text-indent: 0px;
+	Margin: 0px;
+	padding: 0px;
+	line-height: 150%;
+}
+
+.sublist {
+	text-indent: 0px;
+	Margin: 0px 0 10px 20px;
+	padding: 5px 0 0 0;
+	line-height: 125%;
+}
+
+.subsublist {
+	text-indent: 0px;
+	Margin: 5px 0 0 20px;
+	padding: 5px 0 0 0;
+	line-height: 125%;
+}
+
+.sublist li {
+	list-style: square;
+	line-height: 24px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin: 0 0 0 15px;
+	padding: 0 0 5px 0;
+	/*padding-left: 5px;*/
+}
+
+/* ****************************************************************************
+ * Popups
+ * ***************************************************************************/
+
+.popup {
+	position: relative;
+	border-bottom: 1px dotted lightGray;
+	padding-left: 2px;
+}
+
+.popup:hover {
+	color: dodgerBlue;
+}
+
+.popup span {
+	position: absolute;
+	width: 400px;
+	padding: 5px;
+	left: -1000px;
+	visibility: hidden;
+	background-color: #001C27;
+	padding: 10px;
+	border: 2px solid red;
+}
+
+.popup:hover span {
+	visibility: visible;
+	left: -250px;
+	top: 50px;
+	z-index: 50;
+}
+
+
+/* ****************************************************************************
+ * Page menu
+ * ***************************************************************************/
+#pageMenu a {
+	color: lightGray;
+	background: none;
+}
+
+#pageMenu a:hover {
+	border-bottom: 1px solid red;
+}
+
+
+
+/* ****************************************************************************
+ * Code
+ * ***************************************************************************/
+.code {
+	counter-reset:li; /* Initiate a counter */
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-family: Monospace, Courier;
+	font-size: 14px;
+}
+
+.code li {
+	list-style: none;
+}
+
+.code > li:before {
+    content:counter(li); /* Use the counter as content */
+    counter-increment:li; /* Increment the counter by 1 */
+	-moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    width:4em;
+	margin-right:8px;
+    padding:4px;
+    margin-right:8px;
+    padding:4px;
+    background:#123456;
+    text-align:center;
+}
+
+
+
+
+

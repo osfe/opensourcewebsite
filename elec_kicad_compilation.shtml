@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <meta name="description" content="Compilation kicad">
+        <meta name="keywords" content="kicad, CAO, compilation, sources, debian">
+        <title>Compilation de Kicad Sous Debian Stable</title>
+        <link href="css/osws.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--#include virtual="header.html" -->
+        <!--#include virtual="menu.html" -->
+        <div id="content">
+            <h1>Compilation sous Debian Squeeze / Wheezy</h1>
+            <div class="update">
+                Mise à jour : 18 avril 2014 -- 12h24
+            </div>
+            <!--p>Kicad est un super logiciel qui démonte sa race...  Eagle, 
+            c'est comme utiliser une pompe à merde pour essayer de fabriquer
+            de l'orfèvrerie.</p-->
+            <p>Sous Debian, qui est ma distribution préférée, la version de
+            kicad disponible dans les dépôts est un peu vieille. Pour
+            remédier à ça on peut compiler soit même la dernière version, la
+            difficulté étant quasiment nulle.</p>
+            <!--Je me suis inspiré de ce que
+            j'ai trouvé <a
+                href="http://www.wayneandlayne.com/blog/2010/12/03/how-to-build-kicad-on-ubuntu/">ici</a>.</p-->
+            <h2 id="telechargement">Téléchargement des sources</h2>
+            Nous allons télécharger les sources de Kicad  depuis launchpad. Vous
+            aurez alors une version très avancée mais peut être un peu moins
+            stable. Pour ça, on utilise l'utilitaire bzr.
+            <ol class="code">
+                <li># aptitude install bzr bzrtools</li>
+            </ol>
+            Une fois que c'est fait, il ne reste plus qu'à obtenir les
+            sources de kicad depuis le dépot
+            <ol class="code">
+                <li># cd /opt</li>
+                <li># bzr checkout bzr checkout
+                https://code.launchpad.net/~kicad-product-committers/kicad/product /opt/kicad_sources/kicad.bzr</li>
+            </ol>
+
+            <!-- ul>
+                <li>téléchargement depuis le site de la derniere version
+                stable;</li>
+                <li>téléchargement depuis les dépôts launchpad et utilisation du
+                script fourni</li>
+                </ul-->
+
+
+            
+            <!-- h3>Depuis le site de kicad</h3>
+            <p>Il vous faut tout d'abord vous rendre sur le site de Kicad et
+            télécharger les dernières 
+            <a	href="http://iut-tice.ujf-grenoble.fr/cao/">sources</a>. Une
+            fois que vous avez récupéré l'archive, vous la décompressez et
+            la rangez bien sagement dans le répertoire de votre choix, dans
+            mon cas c'est le répertoire <span class="path">/opt</span>.
+            <h3>Depuis les dépots Launchpad</h3>
+                        <h2 id="dependances">Installation des dépendances</h2>
+            <ol class="code">
+                <li># aptitude source update</li>
+                <li># aptitude install build-essential checkinstall</li>
+                <li># aptitude install cmake doxygen zlib1g-dev</li>
+                <li># aptitude build-dep kicad</li>
+            </ol>
+            <p>Ici nous avons installé les dépendances qui vont nous être
+            indispensables pour la compilation. </p-->
+            <h2 id="compilation">Compilation</h2>
+            <p>Maintenant, rendez vous dans
+            le répertoire où vous avez rangé les sources de Kicad et éditez le
+            script d'installation avec votre éditeur préféré</p>
+            <ol class="code">
+                <li># cd /opt/kicad_sources/kicad.bzr/scripts/kicad-install.sh</li>
+                <li># vim kicad-install.sh</li>
+            </ol>
+            <p>Dans ce script, il faut modifier la variable
+            <em>WORKING_TREES</em> en fonction de ce que vous
+            avez choisi comme dossier de destination pour les sources. Par
+            exemple, ci-dessus, nous avons choisi de mettre les sources dans le
+            dossier <em>/opt/kicad_sources/</em>, donc la ligne deviendra
+            <em>WORKING_TREES=/opt/kicad_sources</em>.</p>
+            <p>Sauver le fichier et quittez votre éditeur, et executez le script</p>
+             <ol class="code">
+                <li># cd /opt</li>
+                <li># /opt/kicad_sources/kicad.bzr/scripts/kicad-install.sh</li>
+            </ol>
+            Vous voilà désormais avec un Kicad <em>on the bleeding
+                edge</em>.
+
+        </div>
+        <ul id="pageMenu">
+            <li><a href="#top">Compilation de Kicad</a></li>
+            <li><a href="#telechargement">Téléchargement</a></li>
+            <li><a href="#dependances">Dépendances</a></li>
+            <li><a href="#compilation">Compilation</a></li>
+        </ul>	
+    </body>
+</html>

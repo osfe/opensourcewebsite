@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# Check if the script is being run as root exit if it is not.
+if [ "$UID" -ne "0" ]
+then
+  echo "[ERROR] This script must be run as root"
+  exit 1
+fi
+cd /home/lemaire/CAO/kicad/LIB/launchpad/BZR
+echo '/*** libraries update ***/'
+bzr update
+echo "/*** remove previous build ***/"
+rm -fR build/*
+cd build
+echo "/*** build libraries ***/"
+cmake ../
+make
+echo "/*** install libraries ***/"
+make install
+cd ..
+echo "/*** libraries up to date ***/"

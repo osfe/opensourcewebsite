@@ -1,0 +1,59 @@
+#!/usr/bin/env bash
+echo "This is a backup script -- version 0.2"
+echo "script started at " $(date)
+
+# # change dir to home
+cd ~
+BCK=BACKUP
+
+echo "test if dir backup dir exists and create it if not..."
+if [ ! -d "$DIR" ]; then
+	echo "The backup directory does not exists and will be created"
+	mkdir -p "$BCK"
+fi
+
+echo "create a temporary backup dir ~/__temp__"
+TEMP=__temp__
+mkdir -p "$TEMP"
+
+# backup code directory
+7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "$TEMP"/code.7z ~/code
+
+# backup tex dir
+cd ~/tex
+find ./ -name '*.out'		-exec rm -fR {} \; 	&& \
+find ./ -name '*.backup'	-exec rm -fR {} \;  && \
+find ./ -name '*.toc'		-exec rm -fR {} \;	&& \
+find ./ -name '*.aux'		-exec rm -fR {} \;	&& \
+find ./ -name '*.lof'		-exec rm -fR {} \;	&& \
+find ./ -name '*.lot'		-exec rm -fR {} \;	&& \
+find ./ -name '*.log'		-exec rm -fR {} \;	&& \
+find ./ -name '*.*~'		-exec rm -fR {} \;
+cd
+7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "$TEMP"/tex.7z ~/tex
+
+# backup CAO Directory 
+7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "$TEMP"/cao.7z ~/CAO
+
+# backup text dir
+7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "$TEMP"/text.7z ~/text
+
+
+# backup data dir
+7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "$TEMP"/data.7z ~/data
+
+
+# backup Desktop dir
+# 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on "$TEMP"/Desktop.7z ~/Desktop
+
+# backup hidden folders
+# 7z a -t7z -m0=lzma -mx=9 -mfb=64 -md=32m -ms=on ~/BACKUP/hidden.7z ~/.*
+
+# tar temp dir
+cd "$TEMP"
+tar -cf ~/backup.tar *
+cd
+mv backup.tar "$BCK"/backup_$(date "+%a%Y%m%d_%H%M").tar
+rm -fR ~/"$TEMP"
+echo "backup archive is complete, you can now store it in a safe place !!"
+echo "script ended at " $(date)

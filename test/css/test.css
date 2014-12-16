@@ -1,0 +1,103 @@
+/* test css */
+
+/* reset css */
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, li, pre, code, address, variable, form, fieldset, blockquote {
+	padding: 0;
+	margin: 0;
+	font-size: 1em;
+	font-weight: normal;
+	color: LightGray;
+	background: #001C27;
+}
+table { 
+	border-collapse: collapse; 
+	border-spacing: 0;
+}
+
+td, th, caption { 
+	font-weight: normal; 
+	text-align: left; 
+}
+
+img, fieldset { 
+	border: 0; 
+}
+
+ol { 
+	padding-left: 0; 
+	list-style: decimal; 
+}
+
+ul { 
+	padding-left: 0; 
+	list-style: none;
+}
+
+q:before, q:after { content:''; }
+
+
+/******************************************************************************
+ * global settings
+ * ***************************************************************************/
+p {
+	text-align: justify;
+	font-size: 95%;
+}
+
+/* ******************
+ * Layout
+ */
+
+#header {
+	background: url('../images/PNG/bg_tile_darkblue.png');
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 100px;
+}
+
+#mainMenu {
+	position: fixed;
+	background: url('../images/PNG/bg_tile_darkblue.png');
+	height: 28px;
+	top: 72px;
+	width: 986px;
+	border: 1px dotted Purple;
+}
+
+#wrapper {
+	width: 986px;
+	margin: auto;
+	margin-top: 50px;
+	border: 1px solid blue;
+	overflow: hidden;
+}
+
+#leftSidebar {
+	background: url('../images/PNG/bg_tile_darkblue.png');
+	float: left;
+	width: 150px;
+	border: 1px solid red;
+}
+
+#content {
+	float: left;
+	width: 650px;
+	border: 1px solid green;
+	margin: 0 15px 0 15px;
+}
+
+#rightSidebar {
+	float: left;
+	width: 150px;
+	border: 1px solid orange;
+}
+
+#footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 1.2em;
+	font-size: 50%;
+	border: 1px solid Magenta;
+}

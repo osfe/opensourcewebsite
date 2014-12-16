@@ -1,0 +1,4 @@
+\xdefinecolor{dodgerblue}{HTML}{1E90FF}
+\begin{tikzpicture}[]
+	\node[nmos,rotate=90,color=dodgerblue,xscale=-1,semithick] at (0,0) {â¢};
+\end{tikzpicture}

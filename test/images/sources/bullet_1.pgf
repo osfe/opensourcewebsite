@@ -1,0 +1,4 @@
+\begin{tikzpicture}[every node/.style={signal, draw=dodgerBlue!50!black, text=white}, scale=8]
+\definecolor{dodgerBlue}{RGB}{30 144 255}
+\node[fill=dodgerBlue, signal to=east, rounded corners=0.1] at (0,0) {};
+\end{tikzpicture}

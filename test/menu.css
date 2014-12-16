@@ -1,0 +1,105 @@
+/* top level */
+#menu {
+	border-top: 2px solid DodgerBlue;
+	margin: 10px 17.5% 0 17.5%;
+    padding-top: 5px;
+	min-width: 800px;
+}
+ /* top level items */
+#menu li {
+	float: left;
+	width: 10em;
+    padding-left: 5px;
+}
+
+/* level 1 */
+#menu li ul {
+    margin 0px;
+    padding: 0px;
+}
+
+/* level 1 items */
+#menu li ul li {
+	position: relative;
+	visibility: hidden;
+    background: #002330;
+    color: dodgerBlue;
+    margin: 0px;
+    padding-left: 10px;
+}
+
+/* level 2 */
+#menu li ul li ul {
+	position: absolute;
+	top: 12px;
+	margin-top: -1em;
+}
+
+/* level 2 items */
+#menu li ul li ul li {
+    visibility: hidden;
+	float: none;
+    margin-left: 10em;
+    border-left: 1px solid red;
+}
+
+
+#menu li:hover {
+    font-weight: bold;
+    border-left: 1px solid red;
+    color: dodgerBlue;
+}
+
+/* if top level hovered */
+#menu li:hover ul {
+	visibility: visible;
+    width: 10em;
+	z-index: 50;
+}
+
+#menu li:hover ul li {
+	visibility: visible;
+}
+
+#menu li:hover ul li ul {
+	visibility: hidden;
+}
+#menu li:hover ul li ul li {
+	visibility: hidden;
+}
+
+/* if level 1 hovered */
+#menu li ul li:hover {
+	visibility: visible;
+    border: none;
+	color: red;
+}
+
+/*#menu li ul li:hover ul {
+}*/
+
+#menu li ul li:hover ul li {
+    visibility: visible;
+	background: #002330;
+}
+
+#menu li ul li ul li:hover {
+	color: red;
+	border-right: 1px solid ;
+}
+
+
+#menu li ul li ul li:hover a {
+	color: red;
+}
+
+#menu a {
+	margin: 0px;
+	padding: 0px;
+	background: none;
+}
+
+#menu li:hover a {
+    color: dodgerBlue;
+}
+

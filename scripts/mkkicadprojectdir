@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+echo 'create base directory'
+DEFPATH=~/CAO/kicad/projects/$1
+mkdir -p $DEFPATH
+echo 'move to base directory'
+cd $DEFPATH
+
+mkdir -p fab/gerber
+mkdir -p fab/ps/sch
+mkdir -p fab/ps/brd
+mkdir -p fab/bom
+mkdir -p bck
+mkdir -p datasheet
+mkdir -p simul

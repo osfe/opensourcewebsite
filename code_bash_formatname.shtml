@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Lignes de commandes Linux">
+        <meta name="keywords" content="linux, command, bash">
+        <title>Lignes de commande</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <link href="css/osws.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link href="css/code_bash.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--#include virtual="header.html" -->
+        <!--#include virtual="menu.html" -->
+        <div id="content">
+            <h1>Enlever les espaces et caractères spéciaux des noms de fichiers</h1>
+            <div class="update">
+                Mise à jour : 28 mai 2014
+            </div>
+            <h2 id=motivations>Motivations</h2>	
+            <p>Enlever tous les caractères indésirables des noms de fichiers.</p>
+
+            <h2 id=todo>TODO</h2>
+            <ul>
+                <li>Donner le choix des caractères;</li>
+                <li>Finir la fonction usage</li>
+            </ul>
+            <h2 id=script>Le script</h2>
+            <!--#include virtual="code_bash_formatname_code.html" -->
+
+            <h2 id=explications>Explications au sujet du script</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+            convallis eros ut luctus consequat. Proin quam libero, suscipit eu
+            nunc id, tempor interdum dolor. Vestibulum pharetra felis sit amet
+            diam mattis, quis mattis nibh sollicitudin. Quisque mollis consequat
+            leo at consectetur. Sed pharetra congue ante, sit amet consequat est
+            rhoncus vel. Integer rhoncus ultrices dolor non ultrices. Etiam
+            aliquet porta pellentesque. Integer tincidunt posuere massa,
+            malesuada iaculis purus commodo eget. Aliquam aliquet vestibulum
+            mauris sit amet placerat. Sed leo augue, hendrerit ut aliquam sit
+            amet, convallis ut nulla. Maecenas mattis nisl augue, tincidunt
+            pulvinar est volutpat eget. Suspendisse quis eros ac est porta
+            pellentesque a sodales nisl. Quisque sit amet velit quam. Donec eget
+            tempor arcu. Vivamus mollis, odio quis tincidunt sollicitudin, purus
+            orci gravida leo, nec laoreet purus metus eget purus. Integer auctor
+            tellus orci, ac aliquet risus vulputate id. </p>
+        </div>
+        <ul id="pageMenu">
+            <li><a href="#motivations">Motivations</a></li>
+            <li><a href="#todo">TODO</a></li>
+            <li><a href="#script">Script</a></li>
+            <li><a href="#explications">Explications</a></li>
+        </ul>	
+    </body>
+</html>

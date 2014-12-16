@@ -1,0 +1,1635 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+	<head>
+		<title>CV ingénieur électronique analogique numérique</title>
+		<meta name="keywords" content="cv, ingénieur, électronique,micro,
+		analogique,numérique,C,python, controlleur">
+		<meta name="google-site-verification" content="ghhkobElfy3_CRbJLIJlwILnL54b-JoxohZiLYL0ZsU">
+		<meta name="description" content="cv ingénieur électronique et
+		micro-électronique, analogique et numérique avec compétence en python et
+		en C">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+		<link href="css/osws.css" rel="stylesheet" type="text/css">
+	</head>
+	<body>
+		<div id="header">
+			OpenSourceWebSite
+		</div>
+		<!--#include virtual="menu.html" -->
+		<div id="wrapper">
+			<div id="content">
+				<h1>Présentation</h1>
+				<h2>Projet</h2>
+				<p>Faire le tour de la pointe bretonne depuis <a
+					href="http://www.roscoff.fr">Roscoff</a> jusque
+				<a href="http://www.quimperle.com">Quimperlé</a>, le tout en
+				train et en bicyclette. Nous allons suivre le trajet décrit dans
+				<a
+					href="http://www.amazon.fr/Le-tour-Bretagne-v%C3%A9lo-Quimperl%C3%A9/dp/2841823997/ref=pd_bxgy_b_img_b">cet
+					ouvrage</a>, ce qui correspond en partie au GR34 à partir de
+				Roscoff. Ce sera notre premier long trajet en
+				vélo tous les deux.</p>
+				<h2>Le trajet prévu</h2>
+				<h3 id="j1">Journée #1</h3>
+				<p>Roscoff → Moguériec  → Poez Guen  → Kernic → Goulven →
+				Brignognan-plages → Ménéham</p>
+				<p>L'étape fait 62,3km</p>
+				<h4>Points d’intérêts</h4>
+				<ul>
+					<li>Le chateau de Kérouzéré, autour de l’anse de
+					Guillec</li>
+					<li>Allée couverte de Guinirvit vers Plouescat</li>
+					<li>Les dunes de Keremma</li>
+					<li>Ménéham : la maison des douaniers</li>
+				</ul>
+				<h2>Matériel</h2>
+				<table>
+					<colgroup>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+						<col/>
+					</colgroup>
+					<tr>
+						<td></td>
+						<td></td>
+						<td colspan="2">Indispensable</td>
+						<td colspan="2">Optionnel</td>
+					</tr>
+					<tr>
+						<td>Type</td>
+						<td>Nom</td>
+						<td>pers</td>
+						<td>grp</td>
+						<td>pers</td>
+						<td>grp</td>
+					</tr>
+					<tr>
+						<td>
+							Équipement Vélo </td>
+						<td> 
+							Sacoches AR </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Equipement Vélo </td>
+						<td>
+
+							Sacoche de guidon </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Equipement Vélo </td>
+						<td> 
+							Couvre-selle en gel
+						</td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1
+						</td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Equipement Vélo </td>
+						<td>
+
+							Sonnette </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Equipement Vélo </td>
+						<td> 
+							Cadenas et clés ou
+							code </td>
+						<td> 
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Equipement Vélo </td>
+						<td> 
+							Tendeur </td>
+						<td>
+							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Equipement Vélo </td>
+						<td>
+
+							Porte-bidon ou gourde ou bouteille </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Equipement Vélo </td>
+						<td> 
+							Boussole de guidon </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+					</tr>
+					<tr >
+						<td> 
+							Equipement Vélo </td>
+						<td> 
+							Rétroviseur </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Dépannage vélo </td>
+						<td>
+
+							Chambre à air </td>
+						<td>
+							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Dépannage vélo </td>
+						<td>
+
+							Pompe </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Dépannage vélo </td>
+						<td> 
+							Colle et rustines </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Dépannage vélo </td>
+						<td>
+
+							Trousse à outils </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Dépannage vélo </td>
+						<td> 
+							Cable de frein selon type d'embout </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						class="ro2">
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Camping </td>
+						<td>
+							Tente </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Camping </td>
+						<td>
+							Duvet </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Camping </td>
+						<td>
+							Matelas auto-gonflant
+						</td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Camping </td>
+						<td>
+							drap housse léger </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td>
+
+							Réchaud butagaz + recharge </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Casserole alu </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option
+							camping) </td>
+						<td> 
+							Couvercle alu </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td>
+
+							Manche casserole </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Briquet </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Bols plastique
+						</td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td>
+
+							Assiette </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Fourchette,
+							couteau, cuillère </td>
+						<td> 
+
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Couteau Opinel </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas
+							(option camping) </td>
+						<td>
+
+							Bouteille plastique rigide (réserve d'eau) </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td>
+
+							Lavette ou éponge </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Produit
+							vaisselle </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option
+							camping) </td>
+						<td> 
+							Torchon </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Repas (option camping) </td>
+						<td> 
+							Ouvre-boite </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+					</tr>
+					<tr >
+						<td> 
+							Repas (option camping) </td>
+						<td> 
+							Tire-bouchon </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+					</tr>
+					<tr >
+						<td> 
+							Repas (option camping) </td>
+						<td>
+
+							Couverture de sol (si elle est légère) </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+					</tr>
+					<tr
+						class="ro2">
+						<td> 
+							 </td>
+						<td> 
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Alimentation </td>
+						<td>
+							Boisson petit
+							déjeuner </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Alimentation </td>
+						<td>
+							Confiture </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Alimentation </td>
+						<td>
+							Fruits secs ou barres céréales </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement
+							cycliste </td>
+						<td> 
+							Cuissard cycliste </td>
+						<td>
+							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td> 
+							T-shirt ou maillot
+							technique </td>
+						<td>  
+							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td>
+
+							Sweat-shirt ou pull léger </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td> 
+							Casque </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td>
+
+							Paire de gant </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td> 
+							Kway blouson ou ciré
+						</td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td> 
+							Paire de chaussettes
+						</td>
+						<td>
+							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td> 
+							Paire de chaussures
+							pour vélo </td>
+						<td>  
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement cycliste </td>
+						<td>
+
+							Gilet de sécurité jaune fluo </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Bermuda + jambes à
+							rallonge </td>
+						<td> 							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Ceinture </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Polo, t-shirt,
+							chemise ou chemisette </td>
+						<td> 							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Sandales
+						</td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Caleçon,
+							culotte </td>
+						<td> 							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Mouchoirs </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Habillement </td>
+						<td>
+							Maillot de bain </td>
+						<td>
+							1
+						</td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Casquette ou bob </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Pyjama (froid) </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							T-shirt manche longue </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Pull chaud
+							ou Polaire </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Habillement </td>
+						<td>
+							Pantalon (soir) </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Gant de
+							toilette </td>
+						<td> 	1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Serviette microfibre (1
+							toilette, 1 bain) </td>
+						<td> 
+							2 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Gel douche </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Shampoing
+						</td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Peigne ou brosse </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Hygiène </td>
+						<td>
+							Brosse à dents </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Hygiène </td>
+						<td>
+							Dentifrice </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr
+						>
+						<td>
+							Hygiène </td>
+						<td>
+							Crème solaire protectrice </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Crème hydratante </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							PQ </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Trousse secours </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Hygiène </td>
+						<td>
+							Produit spécial lessive
+							à la main </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Entretien / Hygiène </td>
+						<td>
+
+							Rasage </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Entretien / Hygiène </td>
+						<td>
+
+							Ongles </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+					</tr>
+					<tr >
+						<td> 
+							Entretien / Hygiène </td>
+						<td> 
+							Tongues de douche
+						</td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1
+						</td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Entretien / Hygiène </td>
+						<td>
+
+							Déodorant </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires
+							de valeur </td>
+						<td> 
+							Papiers d'identité </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires de valeur </td>
+						<td> 
+							Moyens de
+							paiement </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires
+							de valeur </td>
+						<td> 
+							Carte vitale </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires de valeur </td>
+						<td>
+
+							Clé cadenas </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires de valeur </td>
+						<td> 
+							Numéros de
+							téléphones </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires
+							de valeur </td>
+						<td> 
+							Cartes routières </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires de valeur </td>
+						<td>
+
+							GPS </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+					</tr>
+					<tr >
+						<td> 
+							Petites affaires de valeur </td>
+						<td> 
+							Guide de
+							voyages </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires
+							de valeur </td>
+						<td> 
+							Appareil photo (chargeur,
+							batterie, SD) </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires
+							de valeur </td>
+						<td> 
+							Téléphone + chargeur </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Petites affaires de valeur </td>
+						<td>
+							Lunettes de
+							soleil, étui </td>
+						<td>1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Divers </td>
+						<td>
+							Lampe de poche (rechargeable) </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Divers </td>
+						<td>
+							Sacs à ordure </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Divers </td>
+						<td>
+							Sac à provision à mettre en boule </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Divers </td>
+						<td>
+							Corde à linge + pinces </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Loisir </td>
+						<td>
+							Bic </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Loisir </td>
+						<td>
+							Fluo </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Loisir </td>
+						<td>
+							Papier, bloc-note,
+							carnet ou cahier </td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr>
+						<td>
+							Loisir </td>
+						<td>
+							Jeux de cartes, ou dés, ou jeux de voyages
+						</td>
+						<td>
+							 </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+					<tr >
+						<td>
+							Loisir </td>
+						<td>
+							Livre </td>
+						<td>
+							1 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+						<td>
+							 </td>
+					</tr>
+				</table>
+			</div>
+			<ul id="pageMenu">
+				<li><a href="#top">Présentation</a></li>
+				<li><a href="#j1">Journée #1</a></li>
+			</ul>
+			<div class="stat">
+				<!-- phpmyvisites -->
+				<a href="http://st.free.fr/" title="phpMyVisites | Open source web analytics" 
+					onclick="window.open(this.href);return(false);"><script type="text/javascript">
+						<!--
+						var a_vars = Array();
+						var pagename='';
+
+						var phpmyvisitesSite = 240204;
+						var phpmyvisitesURL = "http://st.free.fr/phpmyvisites.php";
+						//-->
+						</script>
+						<script language="javascript" src="http://st.free.fr/phpmyvisites.js" type="text/javascript"></script>
+						<object><noscript><p>phpMyVisites | Open source web analytics
+								<img src="http://st.free.fr/phpmyvisites.php" alt="Statistics" style="border:0" />
+								</p></noscript></object></a>
+								<!-- /phpmyvisites -->
+							</div>
+						</div>
+					</body>
+				</html>

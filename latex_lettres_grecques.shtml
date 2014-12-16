@@ -1,0 +1,39 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Olivier, LEMAIRE">
+        <meta name="keywords" content="latex, symbols, greek, letters, lettres,
+        grecques">
+        <title>Latex -- lettres grecques</title>
+        <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name="google-site-verification" content="ghhkobElfy3_CRbJLIJlwILnL54b-JoxohZiLYL0ZsU" />
+        <link href="css/osws.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <!--#include virtual="header.html" -->
+        <!--#include virtual="menu.html" -->
+
+        <div id="content">
+            <h1>Les lettres grecques en Latex</h1>
+            <div class="update">
+                Mise à jour : 29 Aout 2013 -- 12H23
+            </div>
+            </br>
+            <p>Le but de cette page est de regrouper en un seul endroit les
+            lettres grecques en latex et le code nécessaire pour produire
+            ces lettres dans un document. Ce travail est basé sur celui
+            trouvé <a
+                href="http://web.ift.uib.no/Teori/KURS/WRK/TeX/symALL.html">ici</a>.</p>
+            <div class="imgWrapper" style="width: 75%;">
+                <a href="figures/table_greek_letters.pdf"><img src="figures/table_greek_letters.svg" alt=""/></a>
+                <p>Lettres grecques en Latex</p>
+            </div>
+        </div>
+        <ul id="pageMenu">
+            <li><a href="#top">Retour au sommet</a></li>
+        </ul>	
+    </body>
+</html>

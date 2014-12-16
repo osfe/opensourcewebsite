@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+cd .
+mkdir PDF
+find ./ -maxdepth 1 -name '*.ps' -exec ps2pdf14 '{}' '{}'.pdf \;
+# find ./ -maxdepth 1 -name '*.pdf' -exec pdfcrop '{}' '{}' \;
+rename 's/\.ps\.pdf/\.pdf/' *.ps.pdf
+find ./ -maxdepth 1 -name '*.pdf' -exec pdfcrop '{}' '{}' \;
+mv ./*.pdf PDF/
+# if combine
+if [ ! -c "$@" ] 
+then
+    echo 'Files combined to combined.pdf'
+    cd PDF
+    pdftk *.pdf cat output combined.pdf   
+fi
+
+

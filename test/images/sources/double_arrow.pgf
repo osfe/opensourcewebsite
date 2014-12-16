@@ -1,0 +1,5 @@
+\begin{tikzpicture}[]
+\clip (0,0) rectangle (15px,10px);
+\draw[line width=2px, color=dodgerblue] (7px,10px) -- (14px,5px) -- (7px, 0);
+\draw[line width=2px, color=dodgerblue] (2px,10px) -- (9px,5px) -- (2px, 0);
+\end{tikzpicture}
