@@ -8,6 +8,7 @@
         <meta http-equiv="content-type" content="text/html; charset=utf-8">
         <link href="css/osws.css" rel="stylesheet" type="text/css">
         <link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="font/font_awesome_4_3_0/css/font-awesome.min.css">
     </head>
     <body>
         <!--#include virtual="header.html" -->
@@ -34,12 +35,12 @@
                 <p>Ma motivation pour écrire cette page est de faire partager
                 mon expérience dans la recherche de solutions ouvertes ou
                 <em>open-source</em>.</p>
-                <p>Bien que je sois convaincu qu'il n'est pas toujours facile
-                de trouver et de proposer des solutions ouvertes lors de la
+                <p>Bien que je sois convaincu qu'il n'est pas toujours facile de
+                trouver et de proposer des solutions ouvertes lors de la
                 conception d'un projet complexe où de nombreuses disciplines
-                interviennent, je reste persuadé que si elles existent
-                ces alternatives méritent, la plupart du temps, qu'on s'y intéresse car
-                elles offrent de très nombreux avantages.</p>
+                interviennent, je reste persuadé que si elles existent ces
+                alternatives méritent, la plupart du temps, qu'on s'y intéresse
+                car elles offrent de très nombreux avantages.</p>
             </div>
             <ul id="pageMenu">
                 <li><a href="#top">Bienvenue</a></li>
