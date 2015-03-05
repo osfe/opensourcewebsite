@@ -12,6 +12,7 @@
         <link href="css/osws.css" rel="stylesheet" type="text/css">
         <link href="css/menu.css" rel="stylesheet" type="text/css">
         <link href="css/print.css" rel="stylesheet" type="text/css" media="print"/>
+        <link rel="stylesheet" href="font/font_awesome_4_3_0/css/font-awesome.min.css">
     </head>
     <body>
         <!--#include virtual="header.html" -->
@@ -24,16 +25,18 @@
             <h2>Présentation</h2>
             <ul class="rightBox" style="list-style:None;">
                 <li>36 ans</li>
-                <li>Permis B</li>
-                <li>PACSé</li>
-                <li>Bilingue EN/FR</li>
+                <li>Permis B <i class="fa fa-car"></i></li>
+                <li>PACSé <i class="fa fa-heart"></i></li>
+                <li>Bilingue EN/FR <i class="fa fa-globe"></i></li>
             </ul>
             <ul>
                 <li>Olivier LEMAIRE</li>
                 <li>75001 PARIS</li>
-                <li>Tel: 06 78 86 91 17</li>
-                <li><span class="mail"><a class="mail"
-                        href="mailto:contact@olivier-lemaire.eu">contact@olivier-lemaire.eu</a></span></li>
+                <li><i class="fa fa-phone"></i> 06 78 86 91 17</li>
+                <li><i class="fa fa-envelope-o"></i> 
+                <a class="mail" href="mailto:contact@olivier-lemaire.eu">
+                    contact@olivier-lemaire.eu
+                    </li>
             </ul> 
             <h2 id="experience">Expériences</h2>
             <h3>Expériences significatives</h3>
